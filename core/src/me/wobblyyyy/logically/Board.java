@@ -7,6 +7,9 @@ import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.math.Vector3;
 
+// TODO optimize the hell out of the rendering system
+//      current system is REALLY inefficient and needs A LOT of work.
+
 public class Board {
     public static class BoardMap extends HashMap<Coord, Cell> {
         public BoardMap(int initialCapacity) {
